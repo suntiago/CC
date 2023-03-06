@@ -36,6 +36,7 @@ public class ComponentB implements IComponent, IMainThread {
     private final HashMap<String, IActionProcessor> map = new HashMap<>(4);
 
     private void initProcessors() {
+
     }
 
     private void add(IActionProcessor processor) {
